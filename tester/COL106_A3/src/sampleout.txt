@@ -1,0 +1,145 @@
+../../submission/Aajeya Jajoo_143422_assignsubmission_file_2016MT10546
+Compiling
+Note: col106/a3/BTree.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+Testing
+Insert_Search_Test_Small
+Pass
+
+Insert_Search_Test_Large
+Incorrect search result for 464
+Correct answer:[2, 57, 151, 372, 552, 561, 581, 609, 766, 852, 948]
+Your answer:   [2, 57, 151, 372, 552, 561, 581, 609, 766, 948]
+Failed
+
+Insert_Delete_Search_Test_Small
+Pass
+
+Insert_Delete_Search_Test_Large
+java.util.NoSuchElementException
+	at java.util.LinkedList$ListItr.next(LinkedList.java:890)
+	at java.util.Collections.min(Collections.java:596)
+	at col106.a3.ta.Insert_Delete_Search_Test_Large.test(Insert_Delete_Search_Test_Large.java:11)
+	at col106.a3.ta.Insert_Delete_Search_Test_Large.main(Insert_Delete_Search_Test_Large.java:44)
+Failed due to exception NO EXCPETION SHOULD OCCUR IN THIS TEST CASE, AS WE ONLY SEARCH AND DELETE FOR EXISTING KEYS
+
+###################################################################
+
+
+../../submission/Aakriti Singh_143392_assignsubmission_file_2016EE30161
+Compiling
+
+Testing
+Insert_Search_Test_Small
+Pass
+
+Insert_Search_Test_Large
+Pass
+
+Insert_Delete_Search_Test_Small
+Pass
+
+Insert_Delete_Search_Test_Large
+
+###################################################################
+
+
+../../submission/Abhinash Kumar_143339_assignsubmission_file_2016CS10357
+Compiling
+
+Testing
+Insert_Search_Test_Small
+Pass
+
+Insert_Search_Test_Large
+Pass
+
+Insert_Delete_Search_Test_Small
+Pass
+
+Insert_Delete_Search_Test_Large
+Pass
+
+###################################################################
+
+
+../../submission/Abhinav Kalra_143270_assignsubmission_file_2016EE10441
+Compiling
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+Testing
+Insert_Search_Test_Small
+Pass
+
+Insert_Search_Test_Large
+Pass
+
+Insert_Delete_Search_Test_Small
+Failed
+
+Insert_Delete_Search_Test_Large
+Failed
+
+###################################################################
+
+
+../../submission/Adigopula Teja_143280_assignsubmission_file_2016CS10351
+Compiling
+
+Testing
+Insert_Search_Test_Small
+Exception in thread "main" java.lang.RuntimeException: Not Implemented
+	at col106.a3.BTree.<init>(BTree.java:8)
+	at col106.a3.ta.Insert_Search_Test_Small.main(Insert_Search_Test_Small.java:13)
+
+Insert_Search_Test_Large
+java.lang.RuntimeException: Not Implemented
+	at col106.a3.BTree.<init>(BTree.java:8)
+	at col106.a3.ta.Insert_Search_Test_Large.main(Insert_Search_Test_Large.java:14)
+Failed due to Exception in Insert
+
+Insert_Delete_Search_Test_Small
+java.lang.RuntimeException: Not Implemented
+	at col106.a3.BTree.<init>(BTree.java:8)
+	at col106.a3.ta.Insert_Delete_Search_Test_Small.main(Insert_Delete_Search_Test_Small.java:32)
+Failed due to exception NO EXCPETION SHOULD OCCUR IN THIS TEST CASE, AS WE ONLY SEARCH AND DELETE FOR EXISTING KEYS
+
+Insert_Delete_Search_Test_Large
+java.lang.RuntimeException: Not Implemented
+	at col106.a3.BTree.<init>(BTree.java:8)
+	at col106.a3.ta.Insert_Delete_Search_Test_Large.main(Insert_Delete_Search_Test_Large.java:32)
+Failed due to exception NO EXCPETION SHOULD OCCUR IN THIS TEST CASE, AS WE ONLY SEARCH AND DELETE FOR EXISTING KEYS
+
+###################################################################
+
+
+../../submission/Aditi Chaudhary_143499_assignsubmission_file_2016MT10632
+Compiling
+col106/a3/BTree.java:13: error: type argument K is not within bounds of type-variable Key
+public class BTree<K extends Comparable, V> implements DuplicateBTree<K,V>
+                                                                      ^
+  where K,Key are type-variables:
+    K extends Comparable declared in class BTree
+    Key extends Comparable<Key> declared in interface DuplicateBTree
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+
+Testing
+Insert_Search_Test_Small
+Error: Could not find or load main class col106.a3.ta.Insert_Search_Test_Small
+
+Insert_Search_Test_Large
+Error: Could not find or load main class col106.a3.ta.Insert_Search_Test_Large
+
+Insert_Delete_Search_Test_Small
+Error: Could not find or load main class col106.a3.ta.Insert_Delete_Search_Test_Small
+
+Insert_Delete_Search_Test_Large
+Error: Could not find or load main class col106.a3.ta.Insert_Delete_Search_Test_Large
+
+###################################################################
+
+

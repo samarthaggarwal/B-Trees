@@ -1,0 +1,7 @@
+-1 //HEIGHT or 0
+1 //HEIGHT or 2
+[[5=5, 5=5, 5=five], 6=6, [7=7]] //TO_STRING can be different but must have same data
+[5, 5, five]
+[[5=5, 5=5], 5=five, [7=7, 8=8, 8=eight]] //TO_STRING can be different but must have same data
+[8, eight]
+

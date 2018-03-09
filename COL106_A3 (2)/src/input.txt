@@ -1,0 +1,16 @@
+4
+height
+insert 5 5
+insert 6 6
+insert 7 7
+insert 5 5
+insert 5 five
+height
+print
+search 5
+delete 6
+insert 8 8
+insert 8 eight
+print
+search 8
+exit
