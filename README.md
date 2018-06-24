@@ -1,1 +1,3 @@
-# DS_A3_B-Trees-with-Duplicates
+# B-Trees-with-Duplicates
+
+Implementation of BTree with the ability to handle duplicate keys
